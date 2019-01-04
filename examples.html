@@ -24,7 +24,49 @@
     <h1>Examples</h1>
     
 
-    <p>EXAMPLES</p>
+    <p>You will need stereo headphones to gain a better understanding of the observed phenomena.</p>
+<p>The color markers in the image represent the part of the image that generated the echo sound
+that is being played at that moment.</p>
+<p>The bottom graph in the image represents the amplitudes of the signal, as they change through time.</p>
+<p>The beep with a different frequency at the beginning of each image signals the time
+when the virtual speaker in the camera would emit a sound.</p>
+<p>The sound in the animations below is travelling very slowly so that the differences become apparent
+with no effort. In practice the slowdown does not have to be so large to make the differences observable.</p>
+<p>The images in the animations below were created by aligning a video frame of the camera with
+a depth frame. As the field of view of the RGB sensor produving the video frames is smaller
+than the field of view of the depth sensor, 
+there is a black area around the colored image that still produces echos.
+Some parts of the color images also have unusual black lines. These lines
+are an artifact of aligning video frames with depth frames and correspond to regions
+where the depth frame had no depth information.
+The depth vision camera is a stereo camera, and therefore close to sharp edges or corners
+the depth can not be accurately determined.</p>
+<h2>Tree</h2>
+<p>The cameara moves from seeing the tree on the righ side of the frame,
+through a position where the tree is on the left side of the frame back to the starting side.
+<video src="examples/tree-full.webm" controls preload></video></p>
+<h3>Tree on left side</h3>
+<video src="examples/tree-on-left.webm" controls preload></video>
+
+<h3>Tree on right side</h3>
+<video src="examples/tree-on-right.webm" controls preload></video>
+
+<h2>Stairs</h2>
+<h3>Going up</h3>
+<video src="examples/stairs-ascending.webm" controls preload></video>
+
+<h3>Going down</h3>
+<video src="examples/stairs-descending.webm" controls preload></video>
+
+<h2>Obstacle</h2>
+<h3>Gate barrier</h3>
+<video src="examples/gate-barrier.webm" controls preload></video>
+
+<h3>Parked bicycles on our right</h3>
+<video src="examples/parked-bicycles.webm" controls preload></video>
+
+<h3>Flower pots and walking around bushes</h3>
+<video src="examples/flower-pots.webm" controls preload></video>
             <footer id="contentinfo" class="footer">
                     <nav class="pull-right bottom-nav">
 											<!-- <a href="http://sonic-sight.org/None">RSS</a> -->

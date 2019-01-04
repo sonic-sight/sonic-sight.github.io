@@ -24,7 +24,30 @@
     <h1>Overview</h1>
     
 
-    <p>OVERVIEW</p>
+    <p>This project is an attempt to make echolocation more accessible
+by using a device that virtually slows down the sound.</p>
+<p>The main component of the project is an application that can be deployed
+on a Raspberry Pi 3 and can compute the echo response of the environment
+using the data from a depth vision camera.
+The echo is similar as it would be heard if the camera would be a speaker emitting beeps,
+the camera had ears on both sides <strong>and the sound would travell 100x slower</strong>.</p>
+<p>The slowdown makes the phenomena easier to comprehend.</p>
+<p>Here is an example of listening to the echo of a tree in front of the camera.
+The camera moves from seeing the tree on the righ side of the frame,
+through a position where the tree is on the left side of the frame back to the starting side.
+The color markers in the image represent the part of the image that generate the echo sound
+that is being played at that moment. 
+The beep with a different frequency at the beginning of each image signals the time
+when the virtual speaker in the camera would emit a sound.
+You will need stereo headphones.
+<video src="examples/tree-full.webm" controls preload></video></p>
+<p>One can observe that when the camera is placed with the tree on its right, 
+the right sound channel gets the echo reply quicker than the left.</p>
+<p>You can find more examples <a href="examples.html">here</a>.</p>
+<p>The author currently does not know to what extent the objects could be recognized from their echos
+and how usable such a device might be to visually impaired persons.
+In case you ran some tests, would like to or are interested in the project you can find my contact email
+in the github commit logs, <a href="http://scr.im/sonicsight">protected with captcha here</a> or use <a href="mailto:m108b109@gmail.com">this one</a>.</p>
             <footer id="contentinfo" class="footer">
                     <nav class="pull-right bottom-nav">
 											<!-- <a href="http://sonic-sight.org/None">RSS</a> -->
