@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Articles in  - sonic-sight</title>
+        <title>Game</title>
         <meta charset="utf-8" />
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
         <link href="http://sonic-sight.org/theme/static/css/style.css" rel="stylesheet" />
@@ -16,14 +16,31 @@
                     <li><a href="https://github.com/sonic-sight"><img src="images/github-32px.png" alt="github"></a></li>
                     <li><a href="http://sonic-sight.org/index.html">Overview</a></li>
                     <li><a href="http://sonic-sight.org/examples.html">Examples</a></li>
-                    <li><a href="http://sonic-sight.org/game.html">Game</a></li>
-								<!-- <li class="active"><a href="http://sonic-sight.org/archives.html">Archives</a></li> -->
+                    <li class="active"><a href="http://sonic-sight.org/game.html">Game</a></li>
+								<!-- <li><a href="http://sonic-sight.org/archives.html">Archives</a></li> -->
                 </ul>
                 <h3 class="text-muted"><a href="http://sonic-sight.org">sonic-sight</a></h3>
 				<h2 class="text-muted"></h2>
              </div>
-<ul>
-</ul>
+    <h1>Game</h1>
+    
+
+    <p>Here is an example of a game using the described engine to render the depth
+in the scene to sounds.
+Unfortunately the game is still a bit buggy.
+Due to the limitations that running it in a browser introduce, it runs single threaded
+and with some delay in sounds.
+Due to some memory leaks the game will run well for only a short time.
+Just reload the page to start again.</p>
+<p>It should be usable enough to show interactive rendering of 3D world to sound.</p>
+<p>Controls in the game are:
+wasd for moving forward, left back, right,
+left and right arrow keys for turning on the spot
+and space to trigger the rendering of depth to sound.</p>
+<p>In the game you play a human adult with the dpth camera on his chest,
+with the main camera showing what the human sees through his eyes
+(that is why the depth and sound might seem offset a bit).</p>
+<iframe src="https://c.simmer.io/static/unityFrame/index.html?url=https%3A%2F%2Fsimmercdn.com%2Funity%2FgYOLSl5ApFd8tvhYAl8WN7cUEy32%2Fcontent%2F415e6670-0241-8995-df1f-dfdf5cb31ad6&imagePath=screens/3.png" style="width:640px;height:480px;border:0"></iframe>
             <footer id="contentinfo" class="footer">
                     <nav class="pull-right bottom-nav">
 											<!-- <a href="http://sonic-sight.org/None">RSS</a> -->
